@@ -39,7 +39,7 @@ jobs:
     needs: hello-world-ubunto
     
     steps:
-      name: Print hello World
+    - name: Print hello World
       run: echo "Hello World Windows"
     
     
