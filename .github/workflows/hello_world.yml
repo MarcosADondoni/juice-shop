@@ -38,7 +38,7 @@ jobs:
     runs-on: windows-latest
     needs: hello-world-ubunto
     
-    sleps:
+    steps:
       name: Print hello World
       run: echo "Hello World Windows"
     
