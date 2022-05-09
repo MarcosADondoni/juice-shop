@@ -34,3 +34,13 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+  hello-word-windows:
+    runs-on: windows-latest
+    needs: hello-world-ubunto
+    
+    sleps:
+      name: Print hello World
+      run: echo "Hello World Windows"
+    
+    
+    
