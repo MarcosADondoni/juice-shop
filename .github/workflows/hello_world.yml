@@ -40,7 +40,7 @@ jobs:
     
     steps:
     - name: Print hello World
-      run: echo "Hello World Windows"
+      run: echo Hello World Windows
     
     
     
