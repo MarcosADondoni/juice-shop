@@ -37,9 +37,7 @@ jobs:
     
   hello-world-windows:
     runs-on: windows-latest
-    needs:  
-          - hello-world-ubuntu 
-          - hello-world-macos 
+    needs:  [ hello-world-ubuntu, hello-world-macos ]
 
     steps:
     - name: Print hello world
@@ -51,7 +49,7 @@ jobs:
     
     steps:
     - name: Print hello world
-      run: echo "Hello world Macos"
+      run: echo "Hello world MacOS"
       
       
       
